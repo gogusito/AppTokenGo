@@ -20,14 +20,14 @@ const URL = "https://test-api.sumsub.com"
 
 func main() {
 	postBody := `{
-	"externalUserId": "12344wawdasd",
+	"externalUserId": "SomeExternalUserId",
 	"info": {
     "country": "GBR",
-    "firstName": "Gosha",
-    "lastName": "AAAAAA",
+    "firstName": "SomeUserName",
+    "lastName": "SomeLastName",
     "phone": "+449112081223",
     "dob": "2000-03-04",
-    "placeOfBirth": "Reutov"
+    "placeOfBirth": "SomeCityName"
 	},
 	"requiredIdDocs": {
 		"docSets": [{
